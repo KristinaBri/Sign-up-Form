@@ -1,0 +1,80 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(./images/bg-intro-mobile.png);
+  display: flex;
+}
+.panel {
+  flex-direction: column;
+}
+.form-field {
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 10px;
+  color: #348efe;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+}
+a {
+  text-decoration: none;
+}
+.content-section {
+  color: white;
+  text-align: center;
+  width: 70%;
+  max-width: 375px;
+}
+.content-section p {
+  font-size: 16px;
+}
+.trial-btn {
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.trial-btn span {
+  font-weight: 700;
+}
+.form-section {
+  text-align: center;
+}
+form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 70%;
+  max-width: 375px;
+}
+.conditions {
+  font-size: 10px;
+  color: hsl(246, 25%, 77%);
+}
+.agree-terms {
+  color: hsl(0, 100%, 74%);
+  font-weight: bold;
+}
+button {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #348efe;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+}
+.claim-btn {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  border: none;
+  color: hsl(246, 25%, 77%);
+  font-weight: bold;
+}
